@@ -1,0 +1,5 @@
+# Exclude files from export/archive
+/.gitattributes export-ignore
+/.gitignore export-ignore
+/npm export-ignore
+/Makefile export-ignore

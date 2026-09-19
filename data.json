@@ -1,0 +1,78 @@
+{
+  "about": {
+    "name": "Ababil Hossain",
+    "profession": "Full Stack Web Developer",
+    "description": "I'm a passionate Full Stack Developer who loves transforming complex challenges into elegant, user-friendly solutions. I enjoy creating scalable web applications that blend performance with beautiful design.",
+    "address": "Dinajpur, Bangladesh"
+  },
+  "skills": {
+    "frontend": ["ReactJS", "NextJS", "TailwindCSS", "PWA"],
+    "backend": ["Node.js", "Express.js", "Moduler-MVC"],
+    "database": ["MongoDB", "PostgreSQL", "Redis"],
+    "tools": ["Git", "GitHub", "NPM", "VS Code", "Postman", "Figma"],
+    "language": ["JavaScript", "TypeScript", "ShellScript"]
+  },
+  "contact": {
+    "website": "https://devababil.com",
+    "github": "https://github.com/AbabilCore",
+    "gitlab": "https://gitlab.com/AbabilCore",
+    "gmail": "ababil.webdev@gmail.com",
+    "x": "https://x.com/AbabilCore",
+    "linkedIn": "https://www.linkedin.com/in/AbabilCore",
+    "facebook": "https://facebook.com/ababil.dev",
+    "whatsapp": "01937853223",
+    "discord": "https://discord.gg/AbabilCore"
+  },
+  "projects": {
+    "cutefetch": {
+      "label": "cutefetch",
+      "source": "https://github.com/AbabilCore/cutefetch",
+      "description": "Lightweight HTTP client inspired by Axios for modern web applications."
+    },
+    "emoji-picker": {
+      "label": "emoji-picker",
+      "source": "https://github.com/AbabilCore/emoji-picker",
+      "description": "Simple browser extension to pick and copy emojis instantly anywhere."
+    },
+    "sigla": {
+      "label": "sigla",
+      "source": "https://github.com/AbabilCore/sigla",
+      "description": "Customizable badge generator for GitHub profiles using Node.js and Canvas."
+    },
+    "siteviews": {
+      "label": "siteviews",
+      "source": "https://github.com/AbabilCore/siteviews",
+      "description": "Zero-config website counter tracking visits with user info support."
+    },
+    "react-siteviews": {
+      "label": "react-siteviews",
+      "source": "https://github.com/AbabilCore/react-siteviews",
+      "description": "React component to count and display user visits beautifully."
+    },
+    "make-public": {
+      "label": "make-public",
+      "source": "https://github.com/AbabilCore/make-public",
+      "description": "CLI tool to instantly expose local APIs to the public."
+    },
+    "gen-table": {
+      "label": "gen-table",
+      "source": "https://github.com/AbabilCore/gen-table",
+      "description": "CLI utility generating markdown tables from custom rows and columns."
+    },
+    "mongoose-qb": {
+      "label": "mongoose-qb",
+      "source": "https://github.com/AbabilCore/mongoose-qb",
+      "description": "Mongoose query builder for filtering, searching, sorting, and pagination."
+    },
+    "jobx-cli": {
+      "label": "JobX - AI powered CLI tool",
+      "source": "https://jobx.devababil.com",
+      "description": "AI powered CLI automates job application emails and Google Sheets tracking."
+    }
+  },
+  "timestamp": {
+    "createdAt": "2024-03-02",
+    "updatedAt": "2026-09-19"
+  },
+  "version": "2.0.4"
+}

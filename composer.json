@@ -1,0 +1,45 @@
+{
+  "name": "ababil/ababil",
+  "description": "Beautiful CLI portfolio with gradient colors and emoji support - showcase your skills, projects, and contact info in the terminal",
+  "type": "library",
+  "keywords": [
+    "CLI",
+    "portfolio",
+    "developer",
+    "ababil",
+    "terminal",
+    "console",
+    "cli-app",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ababil Hossain",
+      "email": "ababil.webdev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ababil\\Ababil\\": "composer/src/"
+    }
+  },
+  "bin": [
+    "composer/bin/ababil"
+  ],
+  "homepage": "https://github.com/AbabilCore/ababil",
+  "support": {
+    "issues": "https://github.com/AbabilCore/ababil/issues",
+    "source": "https://github.com/AbabilCore/ababil"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "2.0.x-dev"
+    }
+  },
+  "version": "2.0.7"
+}
