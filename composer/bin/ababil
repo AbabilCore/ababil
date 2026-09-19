@@ -1,0 +1,37 @@
+#!/usr/bin/env php
+<?php
+ 
+$autoloadPaths = [
+    __DIR__ . '/../vendor/autoload.php',              // Local development in composer/
+    __DIR__ . '/../../../../autoload.php',            // Global composer install
+    __DIR__ . '/../../../autoload.php',               // Project composer install
+    __DIR__ . '/../../vendor/autoload.php',           // Alternative structure
+];
+
+$autoloadFound = false;
+foreach ($autoloadPaths as $path) {
+    if (file_exists($path)) {
+        require_once $path;
+        $autoloadFound = true;
+        break;
+    }
+}
+
+if (!$autoloadFound) {
+    fwrite(STDERR, "Error: Could not find autoload.php\n");
+    fwrite(STDERR, "Tried paths:\n");
+    foreach ($autoloadPaths as $path) {
+        fwrite(STDERR, "  - " . realpath(dirname($path)) . "/" . basename($path) . "\n");
+    }
+    exit(1);
+}
+
+use Ababil\Ababil\Portfolio;
+
+try {
+    $portfolio = new Portfolio();
+    $portfolio->display();
+} catch (Exception $e) {
+    fwrite(STDERR, "Error: " . $e->getMessage() . "\n");
+    exit(1);
+}
