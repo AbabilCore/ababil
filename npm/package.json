@@ -1,0 +1,49 @@
+{
+  "name": "ababil",
+  "version": "2.0.5",
+  "description": "CLI portfolio for Ababil Hossain",
+  "main": "dist/index.js",
+  "bin": {
+    "ababil": "./dist/index.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx --watch ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "sh ./scripts/build.sh"
+  },
+  "keywords": [
+    "CLI",
+    "portfolio",
+    "developer",
+    "ababil",
+    "ababilhossain",
+    "terminal"
+  ],
+  "author": "Ababil Hossain <ababil.webdev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbabilCore/ababil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbabilCore/ababil/issues"
+  },
+  "homepage": "https://github.com/AbabilCore/ababil#readme",
+  "createdAt": "2024-03-02",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "gradient-string": "^3.0.0",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "wrap-ansi": "^9.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "esbuild@0.28.2": true
+  }
+}
